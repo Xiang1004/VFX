@@ -1,0 +1,21 @@
+train :
+  discription: 'Training dataset'
+  location: 'Blender'
+  path: 'C:/Users/MMD/Desktop/Xiang/final_project/dataset/train'
+  image_count: 27850
+  crop:
+    xmin: 0    # xmin (left column)
+    xmax: 500  # xmax (right column)
+    ymin: 0     # ymin (top row)
+    ymax: 500    # ymax (bottom row)
+    
+val :
+  discription: 'Validation dataset'
+  location: 'Blender'
+  path: 'C:/Users/MMD/Desktop/Xiang/final_project/dataset/val'
+  image_count: 1498
+  crop:
+    xmin: 0    # xmin (left column)
+    xmax: 500  # xmax (right column)
+    ymin: 0     # ymin (top row)
+    ymax: 500    # ymax (bottom row)
